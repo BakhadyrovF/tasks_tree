@@ -32,7 +32,7 @@ trait TaskTree
 
     /**
      * Get children of task
-     * @return \Illuminate\Support\Collection
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany
      */
     public function children()
     {
